@@ -1,0 +1,4 @@
+TOKEN_KEY 'my-token-here'
+OAUTH_CLIENT_ID 'my-user'
+secretName 'secret-files'
+password: sa09dfa8w3e098rw3
