@@ -1,0 +1,6 @@
+[[rules]]
+  description = "Generic Credential"
+  regex = '''(?i)(dbpasswd|api_key|apikey|secret|key|api|password|pw|auth|token|pass)(.{0,20})?['|"][0-9a-zA-Z-_!{}/=]{4,120}['|"]'''
+  tags = ["key", "API", "generic"]
+     [[rules.whitelist]]
+       regex = '''my-token-here'''
